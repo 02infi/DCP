@@ -5,7 +5,7 @@ VERSION = '0.0.1'
 DESCRIPTION = "a transfer learning approach that explicitly models changes in transcriptional variance using a combination of variational autoencoders and normalizing flows"
 
 setup(
-    name='DCP',
+    name='deepcellpredictor',
     version=VERSION,
     description='transfer learning approach',
     long_description='DESCRIPTION',
