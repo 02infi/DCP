@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: deepcellpredictor
+Version: 0.0.1
+Summary: transfer learning approach
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+
+DESCRIPTION
