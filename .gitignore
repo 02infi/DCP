@@ -1,7 +1,4 @@
-<<<<<<< HEAD
+
 # Remove the R file
-=======
-## Hide the R file
->>>>>>> 7345d9b8461141e0966fa750670369b2df5e7715
 *.R
 
