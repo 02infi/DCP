@@ -1,4 +1,6 @@
 
-# Remove the R file
+# Ignore all the R file
+
 *.R
+
 
