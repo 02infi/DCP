@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 # Ignore all the R file
 
+=======
+# Remove the R file
+>>>>>>> 65ba2087fed24c803b4a9b42e5c526e416939c2a
 *.R
 
 
