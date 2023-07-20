@@ -8,7 +8,7 @@ setup(
     name='DCP',
     version=VERSION,
     description='transfer learning approach',
-    long_description=DESCRIPTION',
+    long_description='DESCRIPTION',
     packages=find_packages(),
     install_requires=[
         'numpy','pandas','os','math','matplotlib','torch','anndata','pytorch_lightning','typing','scanpy','scipy','scvi'
