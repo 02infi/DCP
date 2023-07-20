@@ -11,7 +11,7 @@ setup(
     long_description='DESCRIPTION',
     packages=find_packages(),
     install_requires=[
-        'numpy','pandas','os','math','matplotlib','torch','anndata','pytorch_lightning','typing','scanpy','scipy','scvi'
+        'numpy','pandas','matplotlib','torch','anndata','pytorch_lightning','typing','scanpy','scipy','scvi'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
