@@ -4,6 +4,7 @@ Deep cell predictor (DCP) is a deep learning approach that explicitly models cha
 # Installation
 To install DCP via pip : 
 
+```bash
 pip install deepcellpredictor
 
 
