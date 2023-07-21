@@ -7,7 +7,7 @@ To install Deep cell predictor (DCP) via pip :
 ```bash
 pip install deepcellpredictor
 ```
-Alterantively, one can install DCP master branch directly from github:
+Alterantively, one can install DCP master branch directly from github :
 ```bash
 python -m pip install git+https://github.com/02infi/DCP.git
 ```
