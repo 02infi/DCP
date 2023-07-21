@@ -6,5 +6,3 @@ To install DCP via pip :
 
 ```bash
 pip install deepcellpredictor
-
-
