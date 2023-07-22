@@ -11,7 +11,7 @@ setup(
     long_description=DESCRIPTION,
     packages=find_packages(),
     install_requires=[
-        'torch==1.11.0',
+        'torch==1.13.1',
         'anndata==0.8.0',
         'pytorch_lightning==1.7.7',
         'scanpy==1.9.1',
