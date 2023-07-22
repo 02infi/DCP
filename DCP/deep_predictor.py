@@ -10,7 +10,6 @@ from pytorch_lightning import LightningDataModule, LightningModule
 from anndata import AnnData
 from pytorch_lightning import Trainer
 from typing import List
-from flow import * 
 import scanpy as sc 
 from scipy import sparse
 import scipy.stats as ss
