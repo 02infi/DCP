@@ -15,3 +15,6 @@ To uninstall the package,
 ```bash
 pip uninstall deepcellpredictor
 ```
+
+# Example code 
+ To get started, check out the Quick Start Tutorial: ([View](python_notebooks/zebrafish/Prediction_ecto_future_12hpf.ipynb)) 
