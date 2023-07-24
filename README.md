@@ -17,4 +17,6 @@ pip uninstall deepcellpredictor
 ```
 
 # Example code 
- To get started, check out the Quick Start Tutorial: ([View](python_notebooks/zebrafish/Prediction_ecto_future_12hpf.ipynb)) 
+The prediction analysis from Jumde et al. are as follows: 
+([Zebrafish](python_notebooks/zebrafish)) 
+([Hematopoiesis](python_notebooks/hematopoiesis/With_all_genes))
