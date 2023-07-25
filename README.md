@@ -20,3 +20,9 @@ pip uninstall deepcellpredictor
 The prediction analysis from Jumde et al. are as follows:   
 [Zebrafish](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/zebrafish/)   
 [Hematopoiesis](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hematopoiesis/With_all_genes/)
+
+
+
+# Questions 
+If you have any question, please open the github issue [here] (https://github.com/02infi/DCP/issues/new)
+ 
