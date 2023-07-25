@@ -24,5 +24,5 @@ The prediction analysis from Jumde et al. are as follows:
 
 
 # Questions 
-If you have any question, please open the github issue [here](https://github.com/02infi/DCP/issues/new)
+If you have any question related to installation or running DCP, please open the github issue [here](https://github.com/02infi/DCP/issues/new)
  
