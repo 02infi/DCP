@@ -1,7 +1,7 @@
-# Deep cell predictor (DCP)
+## Deep cell predictor (DCP)
 Deep cell predictor (DCP) is a deep learning approach that explicitly models changes in transcriptional variance using a combination of variational autoencoders and normalizing flows.   
 
-# Installation
+## Installation
 To install Deep cell predictor (DCP) via pip : 
 
 ```bash
@@ -16,13 +16,13 @@ To uninstall the package,
 pip uninstall deepcellpredictor
 ```
 
-# Example code 
+## Example code 
 The prediction analysis from Jumde et al. are as follows:   
 [Zebrafish](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/zebrafish/)   
 [Hematopoiesis](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hematopoiesis/With_all_genes/)
 
 
 
-# Questions 
+## Questions 
 If you have any question related to installation or running DCP, please open the github issue [here](https://github.com/02infi/DCP/issues/new)
  
