@@ -60,7 +60,7 @@ Plotting_Correlation_genes(Predicted_object)
 Plotting_Correlation_var(Predicted_object)
 
 
-# Calculate and plot plots
+# Calculate and PCA plots
 Calculating_PCA(Predicted_object)
 sc.pl.pca(Predicted_object, parameters = …)
 
