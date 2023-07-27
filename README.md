@@ -23,10 +23,12 @@ Getting started
 # Importing necessary libraries
 from DCP import deep_predictor
 
+
 # Read the data and define training and test data
 Adata = sc.read()
 Training_data = Adata[Adata.obs[“”] == “training label”]
 Test_data = Adata[Adata.obs[“”] == “test label”]
+
 
 # Initialize the DCP object
 DCP_object = deep_predictor.DeepPredictor(training_data,
@@ -37,8 +39,10 @@ DCP_object = deep_predictor.DeepPredictor(training_data,
                                           likelihood="nb",
                                           batch_size=100)
 
+
 # Training the nb-mmdVAE 
-DCP_object.train(epochs=100)
+DCP_object.train(epochs=number of epochs)
+
 
 # Initialise and run the flows
 DCP_object.runFlows(Timepoint_1,Timepoint_2,"Timelabel")
@@ -46,14 +50,15 @@ DCP_object.trainFlows(iterations= number of iterations)
 
 
 Predicted_object,px_scale,theta,px_rate = DCP_object.predict (Test_data,
-      Timepoint_1,
-      Timepoint_2,
-      "Timelabel")
+                                                              Timepoint_1,
+                                                              Timepoint_2,
+                                                              "Timelabel")
 
 
 # Plot the correlation plots 
 Plotting_Correlation_genes(Predicted_object)
 Plotting_Correlation_var(Predicted_object)
+
 
 # Calculate and plot plots
 Calculating_PCA(Predicted_object)
