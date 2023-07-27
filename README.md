@@ -58,7 +58,8 @@ Plotting_Correlation_var(Predicted_object)
 # Calculate and plot plots
 Calculating_PCA(Predicted_object)
 sc.pl.pca(Predicted_object, parameters = …)
-```python
+
+```
 
 
 ## Example code 
