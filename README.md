@@ -17,8 +17,8 @@ pip uninstall deepcellpredictor
 ```
 
 ## Tutorial
-Getting started with this repository with simple and quick demonstration of DCP workflow.
-Advanced tutorial coming soon !
+Getting started with this repository with simple and quick demonstration of DCP workflow.  
+Advanced tutorial coming soon, Stay tuned !
 
 ```python
 # Importing necessary libraries
