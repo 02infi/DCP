@@ -22,6 +22,7 @@ Advanced tutorial coming soon, Stay tuned !
 
 ```python
 # Importing necessary libraries
+import DCP
 from DCP import deep_predictor
 
 
