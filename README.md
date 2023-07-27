@@ -28,14 +28,14 @@ Adata = sc.read()
 Training_data = Adata[Adata.obs[“”] == “training label”]
 Test_data = Adata[Adata.obs[“”] == “test label”]
 
-# initialize the DCP object
-DCP_object  =  deep_predictor.DeepPredictor(training_data,
-latent_dim=100,
-hidden_layers=[800,800],
-workers=8,
-parameters=[0,0,1,0,1],
-likelihood="nb",
-batch_size=100)
+# Initialize the DCP object
+DCP_object = deep_predictor.DeepPredictor(training_data,
+                                          latent_dim=100,
+                                          hidden_layers=[800,800],
+                                          workers=8,
+                                          parameters=[0,0,1,0,1],
+                                          likelihood="nb",
+                                          batch_size=100)
 
 # Training the nb-mmdVAE 
 DCP_object.train(epochs=100)
