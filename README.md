@@ -76,8 +76,8 @@ DCP Prediction analysis over single cell data comparing early development in zeb
 [Mouse](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/mouse/)  
 [Hydra](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hydra/)  
 
-The detailed description of analysis from Jumde et al. 2023 paper is given here :
-[figures](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/figures/)
+The detailed description of analysis from Jumde et al. 2023 paper is given
+[here](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/figures/)
 
 ## Questions 
 If you have any question related to installation or running DCP, please open the github issue [here](https://github.com/02infi/DCP/issues/new)
