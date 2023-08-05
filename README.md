@@ -72,9 +72,9 @@ Plotting_PCA(Predicted_object, parameters = …)
 ## Example code 
 The prediction analysis from Jumde et al. are as follows:   
 [Zebrafish](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/zebrafish/)   
-[Hematopoiesis](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hematopoiesis/With_all_genes/)
-[Mouse](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/mouse/)
-[Hydra](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hematopoiesis/hydra/)
+[Hematopoiesis](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hematopoiesis/With_all_genes/)  
+[Mouse](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/mouse/)  
+[Hydra](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hematopoiesis/hydra/)  
 
 
 ## Questions 
