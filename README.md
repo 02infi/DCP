@@ -18,7 +18,6 @@ pip uninstall deepcellpredictor
 
 ## Tutorial
 Getting started with simple and quick demonstration of DCP workflow as follows.  
-Advanced tutorial coming soon, Stay tuned !
 
 ```python
 # Importing necessary libraries
@@ -37,7 +36,7 @@ DCP_object = deep_predictor.DeepPredictor(training_data,
                                           latent_dim=100,
                                           hidden_layers=[800,800],
                                           workers=8,
-                                          parameters=[0,0,1,0,1],
+                                          parameters=[0,0,0,1,1],
                                           likelihood="nb",
                                           batch_size=100)
 
