@@ -1,4 +1,4 @@
-"DCP(Deepcellpredictor) : models changes in transcriptional variance"
+"DCP(Deepcellpredictor) : model changes in transcriptional variance"
 __all__ = ["deep_predictor","VAEtorch","ModelPlanner","flow"]
 
 from .deep_predictor import DeepPredictor

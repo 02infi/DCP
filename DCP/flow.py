@@ -24,33 +24,6 @@ class Flow(transform.Transform, nn.Module):
         return nn.Module.__hash__(self)
 
 
-
-
-class RadialFlow(Flow):
-
-    def __init__(self, dim,ref):
-        super(RadialFlow, self).__init__()
-        self.z0 = ref
-        self.alpha = nn.Parameter(torch.Tensor(1))
-        self.beta = nn.Parameter(torch.Tensor(1))
-        self.dim = dim
-        self.init_parameters()
-
-    def _call(self, z):
-        r = torch.norm(z - self.z0, dim=1).unsqueeze(1)
-        h = 1 / (self.alpha + r)
-        return z + (self.beta * h * (z - self.z0))
-
-    def log_abs_det_jacobian(self, z):
-        r = torch.norm(z - self.z0, dim=1).unsqueeze(1)
-        h = 1 / (self.alpha + r)
-        hp = - 1 / (self.alpha + r) ** 2
-        bh = self.beta * h
-        det_grad = ((1 + bh) ** self.dim - 1) * (1 + bh + self.beta * hp * r)
-        return torch.log(det_grad.abs() + 1e-9)
-
-
-
 class PlanarFlow(Flow):
 
     def __init__(self, dim):

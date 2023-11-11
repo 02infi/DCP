@@ -150,18 +150,6 @@ class VAEmodel(nn.Module):
         _z = _q.rsample()
         return _z,l_std 
 
-    def _kl_div(self,_z,l_mu,l_std):
-
-        p = torch.distributions.Normal(torch.zeros_like(l_mu), torch.ones_like(l_std))
-        q = torch.distributions.Normal(l_mu,l_std)
-
-        log_qz = q.log_prob(_z)
-        log_pz = p.log_prob(_z)
-
-        kl = (log_qz - log_pz)
-        kl = kl.sum(1)
-        return kl 
-
 
     def _computing_kernel(self, x: Tensor, y: Tensor) -> Tensor:
         x_cells = x.size(0)
