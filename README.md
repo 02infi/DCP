@@ -64,17 +64,20 @@ Plotting_Correlation_var(Predicted_object)
 
 # Calculate and PCA plots
 Calculating_PCA(Predicted_object)
-sc.pl.pca(Predicted_object, parameters = …)
+Plotting_PCA(Predicted_object, parameters = …)
 
 ```
 
 
 ## Example code 
-The prediction analysis from Jumde et al. are as follows:   
+DCP Prediction analysis over single cell data comparing early development in zebrafish and mouse with Mouse and Hydra stem cell differenation systems  
 [Zebrafish](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/zebrafish/)   
-[Hematopoiesis](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hematopoiesis/With_all_genes/)
+[Hematopoiesis](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hematopoiesis/With_all_genes/)  
+[Mouse](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/mouse/)  
+[Hydra](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hydra/)  
 
-
+The detailed description of analysis from Jumde et al. 2023 paper is given
+[here](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/figures/)
 
 ## Questions 
 If you have any question related to installation or running DCP, please open the github issue [here](https://github.com/02infi/DCP/issues/new)
