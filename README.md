@@ -5,7 +5,7 @@ Deep cell predictor (DCP) is a deep learning approach that explicitly models cha
 To install Deep cell predictor (DCP) via pip : 
 
 ```bash
-pip install deepcellpredictor
+pip install dcpredictor
 ```
 Alterantively, one can install DCP master branch directly from github :
 ```bash
@@ -13,7 +13,7 @@ python -m pip install git+https://github.com/02infi/DCP.git
 ```
 To uninstall the package,
 ```bash
-pip uninstall deepcellpredictor
+pip uninstall dcpredictor
 ```
 
 ## Tutorial
