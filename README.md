@@ -41,6 +41,11 @@ DCP_object = deep_predictor.DeepPredictor(training_data,
                                           batch_size=100)
 
 
+# parameters = [alpha,beta,gamma,lambda,epsilon] Represents the coefficient for all losses 
+# Loss = alpha * MSE + beta * MSE-s + gamma * Kl_loss + lambda * Mmd_loss + epsilon * log_likelihood_
+# For example : [0,0,0,1,1] represents nb-mmd-VAE, [1,0,1,0,0] represents Vanilla VAE
+
+
 # Training the nb-mmdVAE 
 DCP_object.train(epochs=number of epochs)
 
