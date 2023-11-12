@@ -70,13 +70,13 @@ Plotting_PCA(Predicted_object, parameters = …)
 
 ## Example code 
 DCP Prediction analysis over single cell data comparing early development in zebrafish and mouse with Mouse and Hydra stem cell differenation systems  
-[Zebrafish](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/zebrafish/)   
-[Hematopoiesis](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hematopoiesis/With_all_genes/)  
-[Mouse](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/mouse/)  
-[Hydra](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/hydra/)  
+[Zebrafish](https://nbviewer.org/github/02infi/DCP/tree/main/Notebooks/zebrafish/)   
+[Hematopoiesis](https://nbviewer.org/github/02infi/DCP/tree/main/Notebooks/hematopoiesis/With_all_genes/)  
+[Mouse](https://nbviewer.org/github/02infi/DCP/tree/main/Notebooks/mouse/)  
+[Hydra](https://nbviewer.org/github/02infi/DCP/tree/main/Notebooks/hydra/)  
 
 The detailed description of analysis from Jumde et al. 2023 paper is given
-[here](https://nbviewer.org/github/02infi/DCP/tree/main/python_notebooks/figures/)
+[here](https://nbviewer.org/github/02infi/DCP/tree/main/Notebooks/figures/)
 
 ## Questions 
 If you have any question related to installation or running DCP, please open the github issue [here](https://github.com/02infi/DCP/issues/new)
