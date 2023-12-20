@@ -80,5 +80,7 @@ The detailed description of analysis from Jumde et al. 2023 paper is given
 [here](https://nbviewer.org/github/02infi/DCP/tree/main/Notebooks/figures/)
 
 ## Questions 
+**Note:** This version is currently in alpha and is under active development. Users may encounter bugs or incomplete features. We appreciate your feedback and bug reports.
+We plan to release the beta version soon. Stay tuned for updates!
 If you have any question related to installation or running DCP, please open the github issue [here](https://github.com/02infi/DCP/issues/new)
  
